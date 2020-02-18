@@ -1,2 +1,0 @@
-# notus
-Notus test task
