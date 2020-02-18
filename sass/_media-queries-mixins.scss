@@ -1,0 +1,21 @@
+//Media width for minimum size
+@mixin m-w-min-size($size) {
+    @media screen and (min-width: $size) { @content; }
+}
+//Media height for minimum size
+@mixin m-h--min-size($size) {
+    @media screen and (min-height: $size) { @content; }
+}
+//Media width for maximum size
+@mixin m-w-max-size($size) {
+    @media screen and (max-width: $size) { @content; }
+}
+//Media height for maximum size
+@mixin m-h-max-size($size) {
+    @media screen and (max-height: $size) { @content; }
+}
+
+//Media orientation (portrait or landscape)
+@mixin m-orientation($orientation) {
+    @media screen and (orientation: $orientation) { @content; }
+}
